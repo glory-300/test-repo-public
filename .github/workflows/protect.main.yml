@@ -1,0 +1,17 @@
+name: Protect Main Branch
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  check_direct_push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if push is direct
+        run: |
+          if [[ "${{ github.event.head_commit.author.name }}" != "GitHub" ]]; then
+            echo "Direct push to main branch is not allowed. Please use a pull request."
+            exit 1
+          fi
