@@ -1,9 +1,66 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.10">
   <diagram name="Page-1" id="7z_H-VCESE3vupKwtxcX">
-    <mxGraphModel>
+    <mxGraphModel dx="748" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GB76vfsW8Q_CAX650Lq1-1" value="Frontend" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GB76vfsW8Q_CAX650Lq1-2" value="Backend" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GB76vfsW8Q_CAX650Lq1-3" value="Database" style="shape=datastore;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GB76vfsW8Q_CAX650Lq1-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="GB76vfsW8Q_CAX650Lq1-1" target="GB76vfsW8Q_CAX650Lq1-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="340" as="sourcePoint" />
+            <mxPoint x="460" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GB76vfsW8Q_CAX650Lq1-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="GB76vfsW8Q_CAX650Lq1-3" target="GB76vfsW8Q_CAX650Lq1-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="340" as="sourcePoint" />
+            <mxPoint x="460" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GB76vfsW8Q_CAX650Lq1-18" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="330" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="GB76vfsW8Q_CAX650Lq1-14" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="GB76vfsW8Q_CAX650Lq1-18">
+          <mxGeometry width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GB76vfsW8Q_CAX650Lq1-11" value="&lt;h3 style=&quot;margin-top: 0px;&quot;&gt;Tech Stack:&lt;/h3&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;- Next.js v14.2.3 (Typescript)&lt;br&gt;- shadcn/ui&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;- tailwind&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;- mantine hooks&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;- zod (validation)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;- useSWR / TanStack Query&lt;br&gt;- Storybook&lt;br&gt;- Next Intl (i8n) Internationalization&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="GB76vfsW8Q_CAX650Lq1-18">
+          <mxGeometry y="10" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GB76vfsW8Q_CAX650Lq1-19" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="330" y="330" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="GB76vfsW8Q_CAX650Lq1-20" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="GB76vfsW8Q_CAX650Lq1-19">
+          <mxGeometry width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GB76vfsW8Q_CAX650Lq1-21" value="&lt;h3 style=&quot;margin-top: 0px;&quot;&gt;Tech Stack:&lt;/h3&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;- Express.js&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;- Linux Ubuntu&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;- Mongoose&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;- Github Actions&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;- Express validator&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="GB76vfsW8Q_CAX650Lq1-19">
+          <mxGeometry y="10" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GB76vfsW8Q_CAX650Lq1-22" value="External APIs / Services" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GB76vfsW8Q_CAX650Lq1-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="GB76vfsW8Q_CAX650Lq1-2" target="GB76vfsW8Q_CAX650Lq1-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="250" as="sourcePoint" />
+            <mxPoint x="460" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GB76vfsW8Q_CAX650Lq1-24" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="550" y="330" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="GB76vfsW8Q_CAX650Lq1-25" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="GB76vfsW8Q_CAX650Lq1-24">
+          <mxGeometry width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GB76vfsW8Q_CAX650Lq1-26" value="&lt;h3 style=&quot;margin-top: 0px;&quot;&gt;Tech Stack:&lt;/h3&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;- MongoDB&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="GB76vfsW8Q_CAX650Lq1-24">
+          <mxGeometry y="10" width="180" height="160" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
